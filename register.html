@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>注册页面</title>
+		<meta name="Keywords" content="关键词,关键词">
+		<meta name="description" content="描述">
+		<link rel="stylesheet" href="css/register.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/code.js"></script>
+		<script type="text/javascript" src="js/register.js"></script>
+	</head>
+
+	<body>
+		<div id="Top">
+			<span class="title">物联网传感器数据的web呈现用户注册</span>
+			<a href="cover.html">返回</a>
+		</div>
+
+		<div id="Register">
+			<h3>用户注册</h3>
+			<div class="registerCon">
+				<form name="form1" method="post" action="register.php">
+					<input type="hidden" name="action" value="register">
+					<p class="txt"><input type="text" name="userid" placeholder="账号" id="username" /><span class="a">提示：用户名长度大于2小于10</span><span class="b">用户名长度错误</span><span class="isrepeat">该用户名已被注册</span></p>
+					<p class="txt"><input type="password" name="pwd" placeholder="密码" id="pwd" /><span class="c">提示：密码长度需要大于6位</span><span class="d">密码输入不得低于6位</span></p>
+					<p class="txt"><input type="password" name="repwd" placeholder="确认密码" id="repwd" /><span class="e">提示：再次确认密码</span><span class="f">两次输入密码不一致</span></p>
+					<p class="txt"><input type="text" name="tel" placeholder="手机号码" id="tel" /><span class="g">提示：输入您的手机号码</span><span class="h">手机号码错误</span><span class="i">手机号码已被使用</span></p>
+					<p class="txt"><input type="text" class="yzm" id="vdcode" name="validate" placeholder="验证码" />
+						<img src="code.php" id="code"/>
+					</p>
+					<p class="txt"><input type="button" class="check" id="check"   value="确认填写完成" /></p>
+					<p class="txt"><button type="submit" class="but" name="sm1" disabled="disabled">注册</button>
+					</p>
+				</form>
+			</div>
+		</div>
+
+	</body>
+
+</html>

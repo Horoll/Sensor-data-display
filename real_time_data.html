@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>实时数据</title>
+		<script src="js/echarts.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.5.1.js"></script>
+		<style>
+			body {
+				background: url(img/111111.jpg);
+				background-size: 100%, 100%;
+			}
+			
+			.back {
+				color: black;
+				text-decoration: none;
+				/*去掉下划线*/
+				font-weight: 800;
+				/*加粗*/
+				float: right;
+				font-family: "微软雅黑";
+			}
+			
+			.head {
+				width: auto;
+				height: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="head">
+			<a class="back" href="cover.html">返回首页</a>
+		</div>
+		<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+		<div id="main" style="width: 1600px;height:950px;margin: 0 auto"></div>
+
+		<!-- echarts图表js -->
+		<script src="js/real_time_data.js"></script>
+	</body>
+
+</html>

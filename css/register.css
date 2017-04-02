@@ -1,0 +1,151 @@
+            * {
+                padding: 0;
+                margin: 0px;
+                font-family: "微软雅黑";
+                font-size: 16px;
+            }
+            
+            body {
+                background: url(../img/background.jpg) center top no-repeat;
+                background-size: 100%;
+            }
+            
+            #Top {
+                width: 100%;
+                height: 30px;
+                background: #000;
+            }
+            
+            #Top span.title {
+                color: white;
+                margin: 0px auto;
+                padding: 2px,4px,4px,4px;
+                float: left;
+                font-weight: 600;
+            }
+            
+            #Top a {
+                color: white;
+                text-decoration: none;
+                /*去掉下划线*/
+                font-weight: 600;
+                /*加粗*/
+                padding: 4px;
+                float: right;
+                font-size: 15px;
+            }
+            
+            #Top a:hover {
+                color: lightcoral;
+            }
+            
+            #Register {
+                width: 400px;
+                height: 500px;
+                background: #fff;
+                margin: 30px auto;
+                margin-left: 50px;
+                background: 100% 100%;
+            }
+            
+            #Register h3 {
+                color: white;
+                font-size: 20px;
+                text-indent: 45px;
+                height: 85px;
+                line-height: 85px;
+            }
+            
+            #Register .registerCon {
+                width: 252px;
+                height: 500px;
+                margin: 0 auto;
+            }
+            
+            #Register .registerCon p.txt {
+                padding-bottom: 15px;
+            }
+            
+            #Register .registerCon p.txt input {
+                width: 240px;
+                height: 35px;
+                padding-left: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                color: grey;
+            }
+            
+            #Register .registerCon p.txt input.yzm {
+                width: 80px;
+            }
+            
+            #Register .registerCon p.txt input.check {
+                padding: 0;
+                width: 120px;
+                height: 35px;
+                text-decoration:none;
+                color: white;
+                background-color: lightseagreen;
+                border: 0;
+            }
+            
+            #Register .registerCon p.txt input.check:hover {
+                background-color: cadetblue;
+            }
+            
+            #Register .registerCon p.txt button.but {
+                width: 90px;
+                height: 40px;
+                background: #333;
+                color: #fff;
+                border-radius: 4px;
+                -webkit-border-radius: 4px;
+                border: 0;
+                cursor: url(../img/ban.png),pointer;
+            }
+            
+            #Register .registerCon p.txt button.but:hover {
+                background: lightseagreen;
+            }
+
+            .a,
+            .b,
+            .c,
+            .d,
+            .e,
+            .f,
+            .g,
+            .h,
+            .isrepeat,
+            .i
+            {
+                color: white;
+                display: none;
+            }
+
+            .b,
+            .d,
+            .f,
+            .h ,
+            .isrepeat,
+            .i
+            {
+                color: lightskyblue;
+            }
+
+            span {
+                line-height: 30px;
+                font-size: 15px;
+            }
+            #code{
+                position: relative;
+                top: 10px;
+                left: 15px;
+                cursor: pointer;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+            #Register .registerCon p.txt button.but:disabled {
+                color: white;
+                background: lightslategray;
+            }
